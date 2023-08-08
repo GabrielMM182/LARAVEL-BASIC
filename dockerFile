@@ -1,0 +1,8 @@
+# Use a imagem oficial do MySQL
+FROM mysql:latest
+
+# Variáveis de ambiente para configurar o MySQL
+ENV MYSQL_ROOT_PASSWORD=RootPassword
+ENV MYSQL_DATABASE=todo_list
+ENV MYSQL_USER=rrot
+ENV MYSQL_PASSWORD=MainPassword
